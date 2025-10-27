@@ -12,13 +12,13 @@ El juego presenta una estética futurista con colores neón (cian y naranja), ef
 **Bocetos**
 
 ###  Pantalla 1: Portada (Menú Principal)
-![Pantalla de Portada](boceto/portada.png)
+![Pantalla de Portada](GAME1.png)
 
 *Descripción:* La pantalla de portada presenta el título del juego "Ping Pong Futurista" con un fondo animado de líneas horizontales en movimiento en colores cian y naranja. Los jugadores pueden seleccionar entre dos modos de juego mediante botones estilizados con efectos de brillo neón.
 
 
 ### Pantalla 2: Juego en Acción
-![Pantalla de Juego](boceto/juego.png)
+![Pantalla de Juego](GAME2.png)
 
 *Descripción:* Durante el juego, se muestra el campo de batalla con ambas paletas (cian para Jugador 1, naranja para Jugador 2), la pelota en movimiento con efecto de brillo magenta, y el marcador gigante en la parte superior.
 
