@@ -3,7 +3,7 @@
 
 ## 📋 Descripción del Proyecto
 
-Ping Pong Futurista es una reimaginación moderna del clásico juego Pong, con una estética cyberpunk y efectos visuales neón vibrantes. El proyecto combina la simplicidad del juego original con una presentación visual contemporánea, ofreciendo dos modos de juego completos y un sistema de seguimiento de estadísticas.
+Este Ping Pong es una reimaginación moderna del clásico juego Pong, con una estética cyberpunk y efectos visuales neón vibrantes. El proyecto combina la simplicidad del juego original con una presentación visual contemporánea, ofreciendo dos modos de juego completos y un sistema de seguimiento de estadísticas.
 
 ### Características principales
 
