@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ping Pong</title>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Inicio -->
+    <div id="portada" class="pantalla">
+        <canvas id="backgroundCanvas"></canvas>
+        <div id="portadaContent">
+            <h1>Ping Pong</h1>
+            <p>Selecciona modo de juego</p>
+            <button id="aiBtn">1 Jugador</button>
+            <button id="playerBtn">2 Jugadores</button>
+            <button id="puntuacionesBtn">Puntuaciones</button>
+        </div>
+    </div>
+    <!-- Pantalla de Puntuaciones -->
+    <div id="puntuaciones" class="pantalla oculto">
+        <canvas id="backgroundCanvas2"></canvas>
+        <div class="puntuaciones-box">
+            <h2>Historial de Partidas</h2>
+            <div id="listaPartidas"></div>
+            <button id="volverBtn">Volver al Menú</button>
+            <button id="borrarHistorialBtn">Borrar Historial</button>
+        </div>
+    </div>
+    <!-- ingreso de nombres -->
+    <div id="nombresScreen" class="pantalla oculto">
+        <div class="mensaje-box">
+            <h2>Nombres de Jugadores</h2>
+            <div class="input-group">
+                <label for="nombreJ1">Jugador 1:</label>
+                <input type="text" id="nombreJ1" maxlength="15" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="input-group" id="nombreJ2Group">
+                <label for="nombreJ2">Jugador 2:</label>
+                <input type="text" id="nombreJ2" maxlength="15" placeholder="Ingresa tu nombre">
+            </div>
+            <button id="confirmarNombresBtn" class="btn-comenzar">Continuar</button>
+        </div>
+    </div>
+    <!-- Mensaje -->
+    <div id="mensajeInicial" class="pantalla oculto">
+        <div class="mensaje-box">
+            <h2>¡A jugar!</h2>
+            <p class="regla-texto">El primero en anotar <span class="puntos-destaque">4 puntos</span> gana</p>
+            <p class="instrucciones">Jugador 1: <span class="teclas">W / S</span></p>
+            <p class="instrucciones" id="instruccionesJ2">Jugador 2: <span class="teclas">↑ / ↓</span></p>
+            <button id="comenzarBtn" class="btn-comenzar">Presiona ESPACIO para comenzar</button>
+        </div>
+    </div>
+    <!-- Juego De Ping-Pong -->
+    <div id="juego" class="pantalla oculto">
+        <canvas id="canvas" width="800" height="500"></canvas>
+        <div id="gameover" class="oculto">
+            <h2 id="winner"></h2>
+            <button id="restartBtn">Reiniciar</button>
+            <button id="menuBtn">Menú</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
